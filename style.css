@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+header{
+    width: 100%;            
+    height: 90vh;
+    background-image: url(m4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(55, 24, 126);
+}
+.top h3{
+    margin-left: 20px;
+}
+.top p{
+    margin-right: 20px;
+}
+.top p a{
+       text-decoration: none;
+       color: red;
+}
+
+nav{ 
+    width: 100%;
+    height: 15vh;
+     display: flex;
+     background-color: rgb(122, 17, 17);
+     justify-content: space-between;
+     align-items: center;
+     text-transform: uppercase;
+     color: rgb(17, 1, 1);
+     font-weight: bold;
+
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+
+}
+nav .menu{
+    width: 50%;
+
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+nav .menu ul a{
+color: rgb(245, 244, 242);
+text-decoration: none;
+
+
+}
+
+nav .menu ul a:hover{
+    color: rgb(245, 7, 7);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn button{
+    border-radius: 100px;
+    color: rgb(241, 241, 241);
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    
+
+}
+.btn button:hover{
+    background-color: red;
+    color: black;
+}
+.content{
+    width: 100%;
+    height: 50vh;
+   margin-top: 175px;
+   justify-content: center;
+   text-align: center;
+   font-size: 30px;
+   color: rgb(82, 5, 5);
+}
+
+.content button{
+    border-radius: 50px;
+    background-color: aqua;
+    width: 165px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.content button:hover{
+    color: red;
+    background-color: black;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+.course-offer{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 242px;
+    margin-top:40px ;
+    
+}
+
+.course1 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.course2 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.course3 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.course-offer1{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 242px;
+    margin-top:214px ;
+    
+}
+
+
+.course4 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.course5 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.course6 img{
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 300px;
+display: flex;
+background-color: black;
+justify-content: space-between;
+
+}
+
+.foot1{
+    width: 250;
+    height: fit-content;
+    margin-top: 15px;
+    
+}
+.footer img{
+    width: 250px;
+}
+
+.foot2{
+    width: 250;
+    margin-top: 100px;
+    margin-right: 12%;
+}
+
+.foot2 p a{
+    color: #fff;
+}
+
+.foot3{
+    width: 250;
+    margin-top: 100px;
+    display: flex ;
+    color: #fff;
+    justify-content: flex-end;
+    margin-right: 40px;
+
+}
+
+.foot3 ul li{
+    list-style: none;
+    
+}
+.foot3 ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f80404;
+}
+
+.copyright{
+    text-align: center;
+    background-color: gray;
+}
